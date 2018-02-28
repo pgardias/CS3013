@@ -1,0 +1,546 @@
+Jan 28 20:36:33 CS-3013-VM whoopsie[2351]: [20:36:33] Found usable connection: /org/freedesktop/NetworkManager/ActiveConnection/0
+Jan 28 20:36:34 CS-3013-VM vboxadd[1551]: vboxadd.sh: failed: Look at /var/log/vboxadd-install.log to find out what went wrong.
+Jan 28 20:36:34 CS-3013-VM vboxadd.sh: Look at /var/log/vboxadd-install.log to find out what went wrong.
+Jan 28 20:36:34 CS-3013-VM vboxadd.sh: Doing non-kernel setup of the Guest Additions.
+Jan 28 20:36:35 CS-3013-VM vboxadd[1551]: vboxadd.sh: failed: modprobe vboxguest failed.
+Jan 28 20:36:35 CS-3013-VM vboxadd.sh: modprobe vboxguest failed.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd.service: Main process exited, code=exited, status=1/FAILURE
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Failed to start vboxadd.service.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd.service: Unit entered failed state.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd.service: Failed with result 'exit-code'.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Starting vboxadd-service.service...
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Starting Light Display Manager...
+Jan 28 20:36:35 CS-3013-VM vboxadd-service[2527]: vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Jan 28 20:36:35 CS-3013-VM vboxadd-service.sh: Starting VirtualBox Guest Addition service.
+Jan 28 20:36:35 CS-3013-VM vboxadd-service[2527]: VirtualBox Additions module not loaded!
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd-service.service: Control process exited, code=exited status=1
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Failed to start vboxadd-service.service.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd-service.service: Unit entered failed state.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: vboxadd-service.service: Failed with result 'exit-code'.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Received SIGRTMIN+21 from PID 1274 (plymouthd).
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Started Hold until boot process finishes up.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Starting Set console scheme...
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Started Getty on tty1.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Reached target Login Prompts.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Reached target Multi-User System.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Started Light Display Manager.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Reached target Graphical Interface.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Starting Update UTMP about System Runlevel Changes...
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Started Update UTMP about System Runlevel Changes.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Started Set console scheme.
+Jan 28 20:36:35 CS-3013-VM systemd[1]: Startup finished in 2.524s (kernel) + 14.858s (userspace) = 17.383s.
+Jan 28 20:36:37 CS-3013-VM NetworkManager[1616]: <info>  [1517189797.0003] manager: WiFi hardware radio set enabled
+Jan 28 20:36:37 CS-3013-VM NetworkManager[1616]: <info>  [1517189797.0004] manager: WWAN hardware radio set enabled
+Jan 28 20:36:37 CS-3013-VM systemd[1]: Created slice User Slice of pmgardias.
+Jan 28 20:36:37 CS-3013-VM systemd[1]: Starting User Manager for UID 1001...
+Jan 28 20:36:37 CS-3013-VM systemd[1]: Started Session c1 of user pmgardias.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Reached target Paths.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Reached target Timers.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Reached target Sockets.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Reached target Basic System.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Reached target Default.
+Jan 28 20:36:37 CS-3013-VM systemd[2579]: Startup finished in 78ms.
+Jan 28 20:36:37 CS-3013-VM systemd[1]: Started User Manager for UID 1001.
+Jan 28 20:36:39 CS-3013-VM org.ayatana.bamf[2676]: bamfdaemon start/running, process 2827
+Jan 28 20:36:40 CS-3013-VM org.a11y.Bus[2676]: Activating service name='org.a11y.atspi.Registry'
+Jan 28 20:36:40 CS-3013-VM org.a11y.Bus[2676]: ** (process:2869): WARNING **: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+Jan 28 20:36:41 CS-3013-VM org.a11y.Bus[2676]: Successfully activated service 'org.a11y.atspi.Registry'
+Jan 28 20:36:41 CS-3013-VM org.a11y.atspi.Registry[2909]: SpiRegistry daemon is running with well-known name - org.a11y.atspi.Registry
+Jan 28 20:36:41 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.UPower' unit='upower.service'
+Jan 28 20:36:41 CS-3013-VM systemd[1]: Starting Daemon for power management...
+Jan 28 20:36:42 CS-3013-VM gnome-session[2920]: gnome-session-is-accelerated: llvmpipe detected.
+Jan 28 20:36:42 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.UPower'
+Jan 28 20:36:42 CS-3013-VM systemd[1]: Started Daemon for power management.
+Jan 28 20:36:43 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.bluez' unit='dbus-org.bluez.service'
+Jan 28 20:36:43 CS-3013-VM org.gnome.ScreenSaver[2676]: ** (gnome-screensaver:2967): WARNING **: Couldn't get presence status: The name org.gnome.SessionManager was not provided by any .service files
+Jan 28 20:36:44 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.RealtimeKit1' unit='rtkit-daemon.service'
+Jan 28 20:36:44 CS-3013-VM systemd[1]: Starting RealtimeKit Scheduling Policy Service...
+Jan 28 20:36:45 CS-3013-VM gnome-session[2920]: SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+Jan 28 20:36:45 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.RealtimeKit1'
+Jan 28 20:36:45 CS-3013-VM systemd[1]: Started RealtimeKit Scheduling Policy Service.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Successfully called chroot.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Successfully dropped privileges.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Successfully limited resources.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Running.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Watchdog thread running.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Canary thread running.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Successfully made thread 3067 of process 3067 (n/a) owned by '1001' high priority at nice level -11.
+Jan 28 20:36:45 CS-3013-VM rtkit-daemon[3068]: Supervising 1 threads of 1 processes of 1 users.
+Jan 28 20:36:45 CS-3013-VM gnome-session[2920]: SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+Jan 28 20:36:45 CS-3013-VM gnome-session[2920]: SSH_AUTH_SOCK=/run/user/1001/keyring/ssh
+Jan 28 20:36:45 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.ColorManager' unit='colord.service'
+Jan 28 20:36:45 CS-3013-VM systemd[1]: Starting Manage, Install and Generate Color Profiles...
+Jan 28 20:36:46 CS-3013-VM kernel: [   28.072840] apport-gtk (2732) used greatest stack depth: 13376 bytes left
+Jan 28 20:36:46 CS-3013-VM rtkit-daemon[3068]: Successfully made thread 3103 of process 3103 (n/a) owned by '1001' high priority at nice level -11.
+Jan 28 20:36:46 CS-3013-VM rtkit-daemon[3068]: Supervising 2 threads of 2 processes of 1 users.
+Jan 28 20:36:46 CS-3013-VM pulseaudio[3103]: [pulseaudio] pid.c: Daemon already running.
+Jan 28 20:36:46 CS-3013-VM rtkit-daemon[3068]: Successfully made thread 3105 of process 3105 (n/a) owned by '1001' high priority at nice level -11.
+Jan 28 20:36:46 CS-3013-VM rtkit-daemon[3068]: Supervising 3 threads of 3 processes of 1 users.
+Jan 28 20:36:46 CS-3013-VM pulseaudio[3105]: [pulseaudio] pid.c: Daemon already running.
+Jan 28 20:36:46 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.locale1' unit='dbus-org.freedesktop.locale1.service'
+Jan 28 20:36:46 CS-3013-VM systemd[1]: Starting Locale Service...
+Jan 28 20:36:46 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.ColorManager'
+Jan 28 20:36:46 CS-3013-VM systemd[1]: Started Manage, Install and Generate Color Profiles.
+Jan 28 20:36:46 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.locale1'
+Jan 28 20:36:46 CS-3013-VM systemd[1]: Started Locale Service.
+Jan 28 20:36:47 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.UDisks2' unit='udisks2.service'
+Jan 28 20:36:47 CS-3013-VM gnome-session[2920]: (process:3145): indicator-application-service-WARNING **: Unable to get watcher name 'org.kde.StatusNotifierWatcher'
+Jan 28 20:36:47 CS-3013-VM gnome-session[2920]: (process:3145): indicator-application-service-WARNING **: Name Lost
+Jan 28 20:36:47 CS-3013-VM systemd[1]: Starting Disk Manager...
+Jan 28 20:36:47 CS-3013-VM udisksd[3159]: udisks daemon version 2.1.7 starting
+Jan 28 20:36:47 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.UDisks2'
+Jan 28 20:36:47 CS-3013-VM systemd[1]: Started Disk Manager.
+Jan 28 20:36:47 CS-3013-VM udisksd[3159]: Acquired the name org.freedesktop.UDisks2 on the system message bus
+Jan 28 20:36:47 CS-3013-VM dbus[1558]: [system] Activating service name='org.freedesktop.fwupd' (using servicehelper)
+Jan 28 20:36:47 CS-3013-VM gnome-session-binary[2920]: Entering running state
+Jan 28 20:36:47 CS-3013-VM org.gtk.vfs.AfcVolumeMonitor[2676]: Volume monitor alive
+Jan 28 20:36:48 CS-3013-VM org.freedesktop.fwupd[1558]: (fwupd:3174): Fu-WARNING **: Failed to coldplug: UEFI firmware updating not supported
+Jan 28 20:36:48 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.fwupd'
+Jan 28 20:36:50 CS-3013-VM gnome-session[2920]: Nautilus-Share-Message: Called "net usershare info" but it failed: Failed to execute child process "net" (No such file or directory)
+Jan 28 20:36:50 CS-3013-VM org.gnome.ScreenSaver[2676]: ** Message: Lost the name, shutting down.
+Jan 28 20:36:57 CS-3013-VM kernel: [   39.453990] systemd-hostnam (1682) used greatest stack depth: 13192 bytes left
+Jan 28 20:37:06 CS-3013-VM org.gnome.zeitgeist.Engine[2676]: ** (zeitgeist-datahub:3323): WARNING **: zeitgeist-datahub.vala:229: Unable to get name "org.gnome.zeitgeist.datahub" on the bus!
+Jan 28 20:37:08 CS-3013-VM pulseaudio[3067]: [pulseaudio] bluez5-util.c: GetManagedObjects() failed: org.freedesktop.DBus.Error.TimedOut: Failed to activate service 'org.bluez': timed out
+Jan 28 20:38:09 CS-3013-VM dbus[1558]: [system] Activating via systemd: service name='org.freedesktop.hostname1' unit='dbus-org.freedesktop.hostname1.service'
+Jan 28 20:38:09 CS-3013-VM systemd[1]: Starting Hostname Service...
+Jan 28 20:38:09 CS-3013-VM dbus[1558]: [system] Successfully activated service 'org.freedesktop.hostname1'
+Jan 28 20:38:09 CS-3013-VM systemd[1]: Started Hostname Service.
+Jan 28 20:38:12 CS-3013-VM org.gtk.vfs.Daemon[2676]: ** (gvfsd:2756): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Jan 28 20:38:12 CS-3013-VM org.gtk.vfs.Daemon[2676]: ** (process:3390): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Jan 28 20:38:15 CS-3013-VM org.gtk.vfs.Daemon[2676]: ** (gvfsd:2756): WARNING **: dbus_mount_reply: Error from org.gtk.vfs.Mountable.mount(): Failed to retrieve share list from server: Connection refused
+Jan 28 20:38:15 CS-3013-VM org.gtk.vfs.Daemon[2676]: ** (process:3401): WARNING **: Couldn't create directory monitor on smb://x-gnome-default-workgroup/. Error: The specified location is not mounted
+Jan 28 20:39:49 CS-3013-VM kernel: [  211.860260] pt1: loading out-of-tree module taints kernel.
+Jan 28 20:39:51 CS-3013-VM kernel: [  213.460836] Interceptor: Found syscall table at address: 0xFFFF8863AAC00160
+Jan 28 20:39:52 CS-3013-VM kernel: [  213.460849] Loaded interceptor!
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.740290] User 1001 is opening file: /home/pmgardias/.local/share/keyrings/default
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.740622] User 1001 is closing file descriptor: 23
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.741494] User 1001 is closing file descriptor: 26
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.741496] User 1001 is closing file descriptor: 28
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.741600] User 1001 is closing file descriptor: 23
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.741603] User 1001 is closing file descriptor: 27
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.742335] User 1001 is closing file descriptor: 28
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.742406] User 1001 is closing file descriptor: 28
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.742508] User 1001 is opening file: /proc/self/fd
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.744113] User 1001 is closing file descriptor: 14
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.745362] User 1001 is closing file descriptor: 14
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.801048] User 1001 is opening file: /dev/null
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.824283] User 1001 is closing file descriptor: 23
+Jan 28 20:39:52 CS-3013-VM kernel: [  214.824296] User 1001 is closing file descriptor: 27
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055899] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055903] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055905] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055907] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055909] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055911] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055913] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055914] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055916] User 1001 is opening file: /usr/share/icons/default/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055918] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055920] User 1001 is opening file: /usr/share/pixmaps/default/cursors/left_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.055921] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749503] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749507] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749509] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749511] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749513] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749515] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749517] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749519] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749521] User 1001 is opening file: /usr/share/icons/default/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749522] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749524] User 1001 is opening file: /usr/share/pixmaps/default/cursors/top_side
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.749526] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.916045] User 1001 is closing file descriptor: 14
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.933662] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.933781] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.933917] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.935777] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.935844] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.935914] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.937839] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.937903] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.938076] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:39:54 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.938235] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.938272] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.938330] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:39:54 CS-3013-VM kernel: [  216.957523] User 1001 is closing file descriptor: 25
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104749] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104753] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104756] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104759] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104762] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104764] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104767] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104769] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104771] User 1001 is opening file: /usr/share/icons/default/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104774] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104776] User 1001 is opening file: /usr/share/pixmaps/default/cursors/xterm
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.104778] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.614545] User 1001 is closing file descriptor: 23
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.615332] User 1001 is closing file descriptor: 26
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.615334] User 1001 is closing file descriptor: 28
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.615453] User 1001 is closing file descriptor: 23
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.615456] User 1001 is closing file descriptor: 27
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.617020] User 1001 is closing file descriptor: 28
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.617173] User 1001 is closing file descriptor: 28
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.617233] User 1001 is opening file: /proc/self/fd
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.669940] User 1001 is opening file: /dev/null
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.671565] User 1001 is closing file descriptor: 23
+Jan 28 20:39:55 CS-3013-VM kernel: [  217.671572] User 1001 is closing file descriptor: 27
+Jan 28 20:39:56 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/entry-focused.png': Error opening file: Bad file descriptor
+Jan 28 20:39:56 CS-3013-VM kernel: [  218.911433] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/entry-focused.png
+Jan 28 20:39:56 CS-3013-VM kernel: [  218.913874] User 1001 is closing file descriptor: 14
+Jan 28 20:39:57 CS-3013-VM /usr/sbin/irqbalance: WARNING cant open /proc/stat.  balacing is broken
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.255450] User 1001 is closing file descriptor: 23
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.256296] User 1001 is closing file descriptor: 26
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.256299] User 1001 is closing file descriptor: 28
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.256441] User 1001 is closing file descriptor: 23
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.256445] User 1001 is closing file descriptor: 27
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.257483] User 1001 is closing file descriptor: 28
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.257557] User 1001 is closing file descriptor: 28
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.257621] User 1001 is opening file: /proc/self/fd
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.310990] User 1001 is opening file: /dev/null
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.313426] User 1001 is closing file descriptor: 23
+Jan 28 20:39:59 CS-3013-VM kernel: [  221.313433] User 1001 is closing file descriptor: 27
+Jan 28 20:40:01 CS-3013-VM kernel: [  223.321504] User 1001 is closing file descriptor: 14
+Jan 28 20:40:01 CS-3013-VM kernel: [  223.377094] User 1001 is opening file: /etc/localtime
+Jan 28 20:40:01 CS-3013-VM kernel: [  223.377114] User 1001 is opening file: /etc/localtime
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.732549] User 1001 is opening file: /home/pmgardias/.cache/upstart/bamfdaemon.log
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.733302] User 1001 is closing file descriptor: 26
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.733306] User 1001 is closing file descriptor: 28
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.733388] User 1001 is closing file descriptor: 25
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.733390] User 1001 is closing file descriptor: 27
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.735411] User 1001 is closing file descriptor: 28
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.735505] User 1001 is closing file descriptor: 28
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.735526] User 1001 is opening file: /proc/self/fd
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.786505] User 1001 is opening file: /dev/null
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.789336] User 1001 is closing file descriptor: 25
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.789346] User 1001 is closing file descriptor: 27
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791865] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791869] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791871] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791873] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791875] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791877] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791879] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791881] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791883] User 1001 is opening file: /usr/share/icons/default/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791885] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791886] User 1001 is opening file: /usr/share/pixmaps/default/cursors/watch
+Jan 28 20:40:04 CS-3013-VM kernel: [  226.791888] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.327875] User 1001 is closing file descriptor: 19
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.330347] User 1001 is opening file: /dev/urandom
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.330351] User 1001 is opening file: /dev/random
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.341533] User 1001 is opening file: /dev/urandom
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.341536] User 1001 is opening file: /dev/random
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.347277] User 1001 is closing file descriptor: 19
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.347922] User 1001 is closing file descriptor: 19
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.348664] User 1001 is opening file: /dev/ptmx
+Jan 28 20:40:07 CS-3013-VM /usr/sbin/irqbalance: WARNING cant open /proc/stat.  balacing is broken
+Jan 28 20:40:13 CS-3013-VM org.gnome.Terminal[2676]: (gnome-terminal-server:3424): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button.png': Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.349324] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/button.png
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: Error: getpt failed: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.351645] User 1001 is closing file descriptor: 19
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353490] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353494] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353497] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353499] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353501] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353504] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353507] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353509] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353511] User 1001 is opening file: /usr/share/icons/default/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353513] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353516] User 1001 is opening file: /usr/share/pixmaps/default/cursors/text
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353518] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353527] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353529] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353532] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353534] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353536] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353538] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353540] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353542] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353545] User 1001 is opening file: /usr/share/icons/default/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353547] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353550] User 1001 is opening file: /usr/share/pixmaps/default/cursors/xterm
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353552] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.353802] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/backdrop-button.png
+Jan 28 20:40:13 CS-3013-VM org.gnome.Terminal[2676]: (gnome-terminal-server:3424): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/backdrop-button.png': Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.357768] User 1001 is closing file descriptor: 14
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.360118] User 1001 is opening file: /proc/3424/status
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.360701] User 1001 is opening file: /proc/3424/environ
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.360721] User 1001 is opening file: /proc/3424/cmdline
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.360960] User 1001 is opening file: /proc/3424/status
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.366281] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.370102] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.371170] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.371854] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.372574] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.373164] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.373886] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.374372] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.374424] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.374440] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.374499] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.375498] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.376471] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.376523] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.376596] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.377455] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378293] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378544] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378595] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378668] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378821] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378857] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.378915] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:13 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.379688] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.380648] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.383481] User 1001 is closing file descriptor: 11
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.383558] User 1001 is opening file: /usr/share/applications/gnome-terminal.desktop
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.413821] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.415055] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.415656] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.416456] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.417239] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.417788] User 1001 is closing file descriptor: 25
+Jan 28 20:40:13 CS-3013-VM kernel: [  235.442230] User 1001 is closing file descriptor: 25
+Jan 28 20:40:16 CS-3013-VM org.gnome.Terminal[2676]: (gnome-terminal-server:3424): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-hover.png': Error opening file: Bad file descriptor
+Jan 28 20:40:16 CS-3013-VM kernel: [  238.583379] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/button-hover.png
+Jan 28 20:40:17 CS-3013-VM /usr/sbin/irqbalance: WARNING cant open /proc/stat.  balacing is broken
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.323811] User 1001 is closing file descriptor: 25
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.325147] User 1001 is opening file: /home/pmgardias/.config/dconf/user.MWEFDZ
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.325161] User 1001 is opening file: /usr/lib/x86_64-linux-gnu/charset.alias
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.325175] User 1001 is opening file: /usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.325178] User 1001 is opening file: /usr/lib/x86_64-linux-gnu/gconv/gconv-modules
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.325390] User 1001 is opening file: /home/pmgardias/.config/dconf/user.7OEFDZ
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.327901] User 1001 is closing file descriptor: 14
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.345973] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.346118] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.346179] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.347840] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.347889] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.347952] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.349752] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.349799] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.349865] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.350148] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.350189] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.350236] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:18 CS-3013-VM kernel: [  240.361679] User 1001 is closing file descriptor: 25
+Jan 28 20:40:20 CS-3013-VM kernel: [  242.651814] User 1001 is opening file: /home/pmgardias/.cache/upstart/bamfdaemon.log
+Jan 28 20:40:27 CS-3013-VM /usr/sbin/irqbalance: WARNING cant open /proc/stat.  balacing is broken
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.467296] User 1001 is opening file: /home/pmgardias/.hidden
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.467396] User 1001 is opening file: /proc/self/task/4099/attr/current
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.467659] User 1001 is opening file: /proc/self/task/4100/attr/current
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.467863] User 1001 is opening file: /proc/self/task/4099/attr/current
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.468151] User 1001 is opening file: /proc/self/task/4100/attr/current
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.468457] User 1001 is opening file: /proc/self/task/4099/attr/current
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.472101] User 1001 is opening file: /home/pmgardias
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.472123] User 1001 is opening file: /home/pmgardias/Downloads
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.474538] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.474586] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.474654] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.476950] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.476999] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.477143] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.484378] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.493721] User 1001 is opening file: /home/pmgardias/Videos
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.493901] User 1001 is opening file: /home/pmgardias/Pictures
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.494207] User 1001 is opening file: /home/pmgardias/Music
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.496276] User 1001 is opening file: /home/pmgardias/Documents
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-default.png': Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509351] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509356] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509359] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509361] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509364] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509366] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509369] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509371] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509374] User 1001 is opening file: /usr/share/icons/default/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509377] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509379] User 1001 is opening file: /usr/share/pixmaps/default/cursors/text
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509381] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509386] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509388] User 1001 is opening file: /home/pmgardias/.icons/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509390] User 1001 is opening file: /usr/share/icons/DMZ-White/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509392] User 1001 is opening file: /usr/share/icons/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509393] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509395] User 1001 is opening file: /usr/share/pixmaps/DMZ-White/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509397] User 1001 is opening file: /home/pmgardias/.icons/default/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509399] User 1001 is opening file: /home/pmgardias/.icons/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509401] User 1001 is opening file: /usr/share/icons/default/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509403] User 1001 is opening file: /usr/share/icons/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509405] User 1001 is opening file: /usr/share/pixmaps/default/cursors/xterm
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509407] User 1001 is opening file: /usr/share/pixmaps/default/index.theme
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.509603] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/button-default.png
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.510838] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.510884] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.510957] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.512610] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.512681] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.512787] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.519606] User 1001 is opening file: /proc/3140/status
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.522484] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.524066] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.524121] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.524186] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.525932] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.525975] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.526115] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.527638] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.527681] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.527974] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.528382] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.528394] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.528425] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.528472] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.529699] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.530379] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.530979] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.531697] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.532875] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.533805] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535263] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535351] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535456] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535729] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535770] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.535834] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.536419] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.537620] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538257] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538305] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538356] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538620] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/status/dialog-error-symbolic.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538661] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538724] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.538721] User 1001 is opening file: /usr/share/icons/Humanity/status/48/image-missing.svg
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.539891] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.540678] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.541549] User 1001 is closing file descriptor: 11
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.561318] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.562581] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.563204] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.563756] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.564406] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.564943] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.565818] User 1001 is closing file descriptor: 25
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570307] User 1001 is opening file: /usr/share/applications/nautilus-folder-handler.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570315] User 1001 is opening file: /usr/share/applications/org.gnome.Nautilus.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570321] User 1001 is opening file: /usr/share/applications/org.gnome.baobab.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570351] User 1001 is opening file: /usr/share/applications/nautilus-folder-handler.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570355] User 1001 is opening file: /usr/share/applications/org.gnome.Nautilus.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570360] User 1001 is opening file: /usr/share/applications/org.gnome.baobab.desktop
+Jan 28 20:40:31 CS-3013-VM kernel: [  253.570778] User 1001 is opening file: /usr/share/applications/thunderbird.desktop
+Jan 28 20:40:32 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading image 'file:///usr/share/themes/Ambiance/gtk-3.0/assets/button-default-focused-hover.png': Error opening file: Bad file descriptor
+Jan 28 20:40:32 CS-3013-VM kernel: [  254.582572] User 1001 is opening file: /usr/share/themes/Ambiance/gtk-3.0/assets/button-default-focused-hover.png
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.426000] User 1001 is closing file descriptor: 25
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.447465] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.447523] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.447588] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): Gtk-WARNING **: Error loading theme icon 'image-missing' for stock: Error opening file: Bad file descriptor
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:33 CS-3013-VM gnome-session[2920]: (nautilus:3140): GLib-GObject-CRITICAL **: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.449303] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.449348] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.449396] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.450912] User 1001 is opening file: /usr/share/icons/Adwaita/scalable/places/network-workgroup-symbolic.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.450955] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg
+Jan 28 20:40:33 CS-3013-VM kernel: [  255.451111] User 1001 is opening file: /usr/share/icons/Humanity/status/16/image-missing.svg

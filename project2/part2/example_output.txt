@@ -1,0 +1,31 @@
+Testing syscall cs3013_syscall2 with pid arg 1
+Iterating through children of process 1
+Child with pid 1144
+Child with pid 1175
+Child with pid 1536
+Child with pid 1543
+Child with pid 1559
+Child with pid 1560
+Child with pid 1597
+Child with pid 1598
+Child with pid 1599
+Child with pid 1602
+Child with pid 1603
+Child with pid 1604
+Child with pid 1605
+Child with pid 1656
+Child with pid 1660
+Child with pid 1704
+Child with pid 2342
+Child with pid 2529
+Child with pid 2546
+Child with pid 2570
+Child with pid 2916
+Child with pid 3040
+Child with pid 3043
+Child with pid 3110
+Child with pid 3159
+Iterating through siblings of process 1
+Sibling with pid 2
+Iterating through ancestors of process 1
+None found

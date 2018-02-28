@@ -1,0 +1,31 @@
+[10547.541878] Interceptor: Found syscall table at address: 0xFFFFA2AAA9200160
+[10547.541893] Loaded interceptor!
+[10550.149585] Target process with pid 1 found
+[10550.149590] Process 1144 is a child of target process 1
+[10550.149592] Process 1175 is a child of target process 1
+[10550.149594] Process 1536 is a child of target process 1
+[10550.149596] Process 1543 is a child of target process 1
+[10550.149598] Process 1559 is a child of target process 1
+[10550.149599] Process 1560 is a child of target process 1
+[10550.149601] Process 1597 is a child of target process 1
+[10550.149602] Process 1598 is a child of target process 1
+[10550.149604] Process 1599 is a child of target process 1
+[10550.149606] Process 1602 is a child of target process 1
+[10550.149607] Process 1603 is a child of target process 1
+[10550.149609] Process 1604 is a child of target process 1
+[10550.149610] Process 1605 is a child of target process 1
+[10550.149612] Process 1656 is a child of target process 1
+[10550.149613] Process 1660 is a child of target process 1
+[10550.149615] Process 1704 is a child of target process 1
+[10550.149616] Process 2342 is a child of target process 1
+[10550.149618] Process 2529 is a child of target process 1
+[10550.149620] Process 2546 is a child of target process 1
+[10550.149621] Process 2570 is a child of target process 1
+[10550.149623] Process 2916 is a child of target process 1
+[10550.149624] Process 3040 is a child of target process 1
+[10550.149626] Process 3043 is a child of target process 1
+[10550.149627] Process 3110 is a child of target process 1
+[10550.149629] Process 3159 is a child of target process 1
+[10550.149630] Process 2 is a sibling of target process 1
+[10550.149632] Copying process ancestry to user successful
+

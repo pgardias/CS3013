@@ -1,0 +1,908 @@
+-- Simulation starting with 100 users --
+Thread number 1 looping 6 times
+Thread number 2 looping 19 times
+Thread number 0 looping 9 times
+Thread number 3 looping 9 times
+Thread number 4 looping 10 times
+Thread number 5 looping 12 times
+Thread number 6 looping 7 times
+Thread number 7 looping 11 times
+Thread number 8 looping 13 times
+Thread number 9 looping 11 times
+Thread number 10 looping 14 times
+Thread number 11 looping 9 times
+Thread number 12 looping 1 times
+Thread number 13 looping 5 times
+Thread number 14 looping 1 times
+Thread number 15 looping 19 times
+Thread number 16 looping 21 times
+Thread number 18 looping 17 times
+Thread number 17 looping 14 times
+Thread number 19 looping 16 times
+Thread number 20 looping 7 times
+Thread number 21 looping 18 times
+Thread number 22 looping 20 times
+Thread number 23 looping 15 times
+Thread number 24 looping 18 times
+Thread number 25 looping 21 times
+Thread number 26 looping 11 times
+Thread number 27 looping 13 times
+Thread number 28 looping 12 times
+Thread number 29 looping 12 times
+Thread number 30 looping 15 times
+Thread number 31 looping 15 times
+Thread number 32 looping 17 times
+Thread number 33 looping 19 times
+Thread number 34 looping 22 times
+Thread number 35 looping 14 times
+Thread number 36 looping 23 times
+Thread number 37 looping 12 times
+Thread number 38 looping 6 times
+Thread number 39 looping 23 times
+Thread number 40 looping 13 times
+Thread number 41 looping 13 times
+Thread number 42 looping 17 times
+Thread number 43 looping 10 times
+Thread number 44 looping 23 times
+Thread number 45 looping 7 times
+Thread number 46 looping 19 times
+Thread number 47 looping 26 times
+Thread number 48 looping 8 times
+Thread number 49 looping 23 times
+Thread number 50 looping 9 times
+Thread number 51 looping 9 times
+Thread number 52 looping 18 times
+Thread number 53 looping 16 times
+Thread number 54 looping 19 times
+Thread number 55 looping 1 times
+Thread number 56 looping 17 times
+Thread number 57 looping 14 times
+Thread number 58 looping 7 times
+Thread number 59 looping 19 times
+Thread number 60 looping 15 times
+Thread number 61 looping 6 times
+Thread number 62 looping 17 times
+Thread number 63 looping 15 times
+Thread number 64 looping 10 times
+Thread number 65 looping 17 times
+Thread number 66 looping 13 times
+Thread number 67 looping 5 times
+Thread number 68 looping 19 times
+Thread number 69 looping 12 times
+Thread number 70 looping 18 times
+Thread number 71 looping 14 times
+Thread number 72 looping 16 times
+Thread number 73 looping 7 times
+Thread number 74 looping 21 times
+Thread number 75 looping 19 times
+Thread number 76 looping 6 times
+Thread number 77 looping 23 times
+Thread number 78 looping 11 times
+Thread number 79 looping 27 times
+Thread number 80 looping 11 times
+Thread number 82 looping 4 times
+Thread number 81 looping 19 times
+Thread number 83 looping 17 times
+Thread number 84 looping 3 times
+Thread number 85 looping 9 times
+Thread number 86 looping 1 times
+Thread number 87 looping 13 times
+Thread number 88 looping 23 times
+Thread number 89 looping 13 times
+Thread number 90 looping 16 times
+Thread number 91 looping 13 times
+Thread number 92 looping 5 times
+Thread number 93 looping 14 times
+Thread number 94 looping 2 times
+Thread number 95 looping 19 times
+Thread number 96 looping 3 times
+Thread number 97 looping 15 times
+Thread number 98 looping 8 times
+Thread number 99 looping 25 times
+
+Thread number 12 (female) has finished running
+Loop count: 1
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 94 (female) has finished running
+Loop count: 2
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 84 (female) has finished running
+Loop count: 3
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 82 (female) has finished running
+Loop count: 4
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 13 (female) has finished running
+Loop count: 5
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 92 (female) has finished running
+Loop count: 5
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 6 (female) has finished running
+Loop count: 7
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 85 (female) has finished running
+Loop count: 9
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 58 (female) has finished running
+Loop count: 7
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 11 (female) has finished running
+Loop count: 9
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 4 (female) has finished running
+Loop count: 10
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 51 (female) has finished running
+Loop count: 9
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 64 (female) has finished running
+Loop count: 10
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 43 (female) has finished running
+Loop count: 10
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 9 (female) has finished running
+Loop count: 11
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 66 (female) has finished running
+Loop count: 13
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 28 (female) has finished running
+Loop count: 12
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 27 (female) has finished running
+Loop count: 13
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 7 (female) has finished running
+Loop count: 11
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 0 (female) has finished running
+Loop count: 9
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 5 (female) has finished running
+Loop count: 12
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 63 (female) has finished running
+Loop count: 15
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 30 (female) has finished running
+Loop count: 15
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 10 (female) has finished running
+Loop count: 14
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 41 (female) has finished running
+Loop count: 13
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 71 (female) has finished running
+Loop count: 14
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 8 (female) has finished running
+Loop count: 13
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 93 (female) has finished running
+Loop count: 14
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 97 (female) has finished running
+Loop count: 15
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 24 (female) has finished running
+Loop count: 18
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 72 (female) has finished running
+Loop count: 16
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 34 (female) has finished running
+Loop count: 22
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 16 (female) has finished running
+Loop count: 21
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 54 (female) has finished running
+Loop count: 19
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 81 (female) has finished running
+Loop count: 19
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 49 (female) has finished running
+Loop count: 23
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 36 (female) has finished running
+Loop count: 23
+Number of waits in queue: 0
+Total queue time: 0 ms
+Minimum queue time: 0 ms
+Maximum queue time: 0 ms
+Average queue time: 0 ms
+
+Thread number 86 (male) has finished running
+Loop count: 1
+Number of waits in queue: 1
+Total queue time: 69470 ms
+Minimum queue time: 69470 ms
+Maximum queue time: 69470 ms
+Average queue time: 69470 ms
+
+Thread number 55 (male) has finished running
+Loop count: 1
+Number of waits in queue: 1
+Total queue time: 70469 ms
+Minimum queue time: 70469 ms
+Maximum queue time: 70469 ms
+Average queue time: 70469 ms
+
+Thread number 14 (male) has finished running
+Loop count: 1
+Number of waits in queue: 1
+Total queue time: 68033 ms
+Minimum queue time: 68033 ms
+Maximum queue time: 68033 ms
+Average queue time: 68033 ms
+
+Thread number 96 (male) has finished running
+Loop count: 3
+Number of waits in queue: 1
+Total queue time: 70070 ms
+Minimum queue time: 70070 ms
+Maximum queue time: 70070 ms
+Average queue time: 70070 ms
+
+Thread number 67 (male) has finished running
+Loop count: 5
+Number of waits in queue: 1
+Total queue time: 70669 ms
+Minimum queue time: 70669 ms
+Maximum queue time: 70669 ms
+Average queue time: 70669 ms
+
+Thread number 61 (male) has finished running
+Loop count: 6
+Number of waits in queue: 1
+Total queue time: 69069 ms
+Minimum queue time: 69069 ms
+Maximum queue time: 69069 ms
+Average queue time: 69069 ms
+
+Thread number 76 (male) has finished running
+Loop count: 6
+Number of waits in queue: 1
+Total queue time: 69468 ms
+Minimum queue time: 69468 ms
+Maximum queue time: 69468 ms
+Average queue time: 69468 ms
+
+Thread number 38 (male) has finished running
+Loop count: 6
+Number of waits in queue: 1
+Total queue time: 70468 ms
+Minimum queue time: 70468 ms
+Maximum queue time: 70468 ms
+Average queue time: 70468 ms
+
+Thread number 98 (male) has finished running
+Loop count: 8
+Number of waits in queue: 1
+Total queue time: 69470 ms
+Minimum queue time: 69470 ms
+Maximum queue time: 69470 ms
+Average queue time: 69470 ms
+
+Thread number 1 (male) has finished running
+Loop count: 6
+Number of waits in queue: 1
+Total queue time: 69766 ms
+Minimum queue time: 69766 ms
+Maximum queue time: 69766 ms
+Average queue time: 69766 ms
+
+Thread number 45 (male) has finished running
+Loop count: 7
+Number of waits in queue: 1
+Total queue time: 70768 ms
+Minimum queue time: 70768 ms
+Maximum queue time: 70768 ms
+Average queue time: 70768 ms
+
+Thread number 73 (male) has finished running
+Loop count: 7
+Number of waits in queue: 1
+Total queue time: 69030 ms
+Minimum queue time: 69030 ms
+Maximum queue time: 69030 ms
+Average queue time: 69030 ms
+
+Thread number 20 (male) has finished running
+Loop count: 7
+Number of waits in queue: 1
+Total queue time: 68266 ms
+Minimum queue time: 68266 ms
+Maximum queue time: 68266 ms
+Average queue time: 68266 ms
+
+Thread number 48 (male) has finished running
+Loop count: 8
+Number of waits in queue: 1
+Total queue time: 69369 ms
+Minimum queue time: 69369 ms
+Maximum queue time: 69369 ms
+Average queue time: 69369 ms
+
+Thread number 3 (male) has finished running
+Loop count: 9
+Number of waits in queue: 1
+Total queue time: 67066 ms
+Minimum queue time: 67066 ms
+Maximum queue time: 67066 ms
+Average queue time: 67066 ms
+
+Thread number 50 (male) has finished running
+Loop count: 9
+Number of waits in queue: 1
+Total queue time: 68367 ms
+Minimum queue time: 68367 ms
+Maximum queue time: 68367 ms
+Average queue time: 68367 ms
+
+Thread number 78 (male) has finished running
+Loop count: 11
+Number of waits in queue: 1
+Total queue time: 70070 ms
+Minimum queue time: 70070 ms
+Maximum queue time: 70070 ms
+Average queue time: 70070 ms
+
+Thread number 69 (male) has finished running
+Loop count: 12
+Number of waits in queue: 1
+Total queue time: 70669 ms
+Minimum queue time: 70669 ms
+Maximum queue time: 70669 ms
+Average queue time: 70669 ms
+
+Thread number 37 (male) has finished running
+Loop count: 12
+Number of waits in queue: 1
+Total queue time: 69867 ms
+Minimum queue time: 69867 ms
+Maximum queue time: 69867 ms
+Average queue time: 69867 ms
+
+Thread number 80 (male) has finished running
+Loop count: 11
+Number of waits in queue: 1
+Total queue time: 70670 ms
+Minimum queue time: 70670 ms
+Maximum queue time: 70670 ms
+Average queue time: 70670 ms
+
+Thread number 35 (male) has finished running
+Loop count: 14
+Number of waits in queue: 1
+Total queue time: 69031 ms
+Minimum queue time: 69031 ms
+Maximum queue time: 69031 ms
+Average queue time: 69031 ms
+
+Thread number 29 (male) has finished running
+Loop count: 12
+Number of waits in queue: 1
+Total queue time: 69867 ms
+Minimum queue time: 69867 ms
+Maximum queue time: 69867 ms
+Average queue time: 69867 ms
+
+Thread number 91 (male) has finished running
+Loop count: 13
+Number of waits in queue: 1
+Total queue time: 69170 ms
+Minimum queue time: 69170 ms
+Maximum queue time: 69170 ms
+Average queue time: 69170 ms
+
+Thread number 40 (male) has finished running
+Loop count: 13
+Number of waits in queue: 1
+Total queue time: 69567 ms
+Minimum queue time: 69567 ms
+Maximum queue time: 69567 ms
+Average queue time: 69567 ms
+
+Thread number 26 (male) has finished running
+Loop count: 11
+Number of waits in queue: 1
+Total queue time: 68066 ms
+Minimum queue time: 68066 ms
+Maximum queue time: 68066 ms
+Average queue time: 68066 ms
+
+Thread number 87 (male) has finished running
+Loop count: 13
+Number of waits in queue: 1
+Total queue time: 69030 ms
+Minimum queue time: 69030 ms
+Maximum queue time: 69030 ms
+Average queue time: 69030 ms
+
+Thread number 60 (male) has finished running
+Loop count: 15
+Number of waits in queue: 1
+Total queue time: 69668 ms
+Minimum queue time: 69668 ms
+Maximum queue time: 69668 ms
+Average queue time: 69668 ms
+
+Thread number 31 (male) has finished running
+Loop count: 15
+Number of waits in queue: 1
+Total queue time: 69467 ms
+Minimum queue time: 69467 ms
+Maximum queue time: 69467 ms
+Average queue time: 69467 ms
+
+Thread number 57 (male) has finished running
+Loop count: 14
+Number of waits in queue: 1
+Total queue time: 70868 ms
+Minimum queue time: 70868 ms
+Maximum queue time: 70868 ms
+Average queue time: 70868 ms
+
+Thread number 89 (male) has finished running
+Loop count: 13
+Number of waits in queue: 1
+Total queue time: 69369 ms
+Minimum queue time: 69369 ms
+Maximum queue time: 69369 ms
+Average queue time: 69369 ms
+
+Thread number 23 (male) has finished running
+Loop count: 15
+Number of waits in queue: 1
+Total queue time: 69367 ms
+Minimum queue time: 69367 ms
+Maximum queue time: 69367 ms
+Average queue time: 69367 ms
+
+Thread number 68 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 68031 ms
+Minimum queue time: 68031 ms
+Maximum queue time: 68031 ms
+Average queue time: 68031 ms
+
+Thread number 19 (male) has finished running
+Loop count: 16
+Number of waits in queue: 1
+Total queue time: 70668 ms
+Minimum queue time: 70668 ms
+Maximum queue time: 70668 ms
+Average queue time: 70668 ms
+
+Thread number 17 (male) has finished running
+Loop count: 14
+Number of waits in queue: 1
+Total queue time: 70368 ms
+Minimum queue time: 70368 ms
+Maximum queue time: 70368 ms
+Average queue time: 70368 ms
+
+Thread number 53 (male) has finished running
+Loop count: 16
+Number of waits in queue: 1
+Total queue time: 68867 ms
+Minimum queue time: 68867 ms
+Maximum queue time: 68867 ms
+Average queue time: 68867 ms
+
+Thread number 95 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 70070 ms
+Minimum queue time: 70070 ms
+Maximum queue time: 70070 ms
+Average queue time: 70070 ms
+
+Thread number 2 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 70867 ms
+Minimum queue time: 70867 ms
+Maximum queue time: 70867 ms
+Average queue time: 70867 ms
+
+Thread number 25 (male) has finished running
+Loop count: 21
+Number of waits in queue: 1
+Total queue time: 70768 ms
+Minimum queue time: 70768 ms
+Maximum queue time: 70768 ms
+Average queue time: 70768 ms
+
+Thread number 62 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 68167 ms
+Minimum queue time: 68167 ms
+Maximum queue time: 68167 ms
+Average queue time: 68167 ms
+
+Thread number 56 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 68367 ms
+Minimum queue time: 68367 ms
+Maximum queue time: 68367 ms
+Average queue time: 68367 ms
+
+Thread number 21 (male) has finished running
+Loop count: 18
+Number of waits in queue: 1
+Total queue time: 69766 ms
+Minimum queue time: 69766 ms
+Maximum queue time: 69766 ms
+Average queue time: 69766 ms
+
+Thread number 59 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 68167 ms
+Minimum queue time: 68167 ms
+Maximum queue time: 68167 ms
+Average queue time: 68167 ms
+
+Thread number 18 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 69766 ms
+Minimum queue time: 69766 ms
+Maximum queue time: 69766 ms
+Average queue time: 69766 ms
+
+Thread number 70 (male) has finished running
+Loop count: 18
+Number of waits in queue: 1
+Total queue time: 69269 ms
+Minimum queue time: 69269 ms
+Maximum queue time: 69269 ms
+Average queue time: 69269 ms
+
+Thread number 65 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 70370 ms
+Minimum queue time: 70370 ms
+Maximum queue time: 70370 ms
+Average queue time: 70370 ms
+
+Thread number 32 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 68667 ms
+Minimum queue time: 68667 ms
+Maximum queue time: 68667 ms
+Average queue time: 68667 ms
+
+Thread number 22 (male) has finished running
+Loop count: 20
+Number of waits in queue: 1
+Total queue time: 69031 ms
+Minimum queue time: 69031 ms
+Maximum queue time: 69031 ms
+Average queue time: 69031 ms
+
+Thread number 83 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 69369 ms
+Minimum queue time: 69369 ms
+Maximum queue time: 69369 ms
+Average queue time: 69369 ms
+
+Thread number 90 (male) has finished running
+Loop count: 16
+Number of waits in queue: 1
+Total queue time: 69570 ms
+Minimum queue time: 69570 ms
+Maximum queue time: 69570 ms
+Average queue time: 69570 ms
+
+Thread number 46 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 70768 ms
+Minimum queue time: 70768 ms
+Maximum queue time: 70768 ms
+Average queue time: 70768 ms
+
+Thread number 52 (male) has finished running
+Loop count: 18
+Number of waits in queue: 1
+Total queue time: 70569 ms
+Minimum queue time: 70569 ms
+Maximum queue time: 70569 ms
+Average queue time: 70569 ms
+
+Thread number 42 (male) has finished running
+Loop count: 17
+Number of waits in queue: 1
+Total queue time: 69567 ms
+Minimum queue time: 69567 ms
+Maximum queue time: 69567 ms
+Average queue time: 69567 ms
+
+Thread number 75 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 68469 ms
+Minimum queue time: 68469 ms
+Maximum queue time: 68469 ms
+Average queue time: 68469 ms
+
+Thread number 15 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 69766 ms
+Minimum queue time: 69766 ms
+Maximum queue time: 69766 ms
+Average queue time: 69766 ms
+
+Thread number 33 (male) has finished running
+Loop count: 19
+Number of waits in queue: 1
+Total queue time: 69067 ms
+Minimum queue time: 69067 ms
+Maximum queue time: 69067 ms
+Average queue time: 69067 ms
+
+Thread number 74 (male) has finished running
+Loop count: 21
+Number of waits in queue: 1
+Total queue time: 69868 ms
+Minimum queue time: 69868 ms
+Maximum queue time: 69868 ms
+Average queue time: 69868 ms
+
+Thread number 77 (male) has finished running
+Loop count: 23
+Number of waits in queue: 1
+Total queue time: 68168 ms
+Minimum queue time: 68168 ms
+Maximum queue time: 68168 ms
+Average queue time: 68168 ms
+
+Thread number 79 (female) has finished running
+Loop count: 27
+Number of waits in queue: 1
+Total queue time: 64118 ms
+Minimum queue time: 64118 ms
+Maximum queue time: 64118 ms
+Average queue time: 64118 ms
+
+Thread number 88 (male) has finished running
+Loop count: 23
+Number of waits in queue: 2
+Total queue time: 69368 ms
+Minimum queue time: 1100 ms
+Maximum queue time: 68268 ms
+Average queue time: 34684 ms
+
+Thread number 99 (female) has finished running
+Loop count: 25
+Number of waits in queue: 2
+Total queue time: 66885 ms
+Minimum queue time: 2799 ms
+Maximum queue time: 64086 ms
+Average queue time: 33442 ms
+
+Thread number 39 (male) has finished running
+Loop count: 23
+Number of waits in queue: 2
+Total queue time: 69862 ms
+Minimum queue time: 295 ms
+Maximum queue time: 69567 ms
+Average queue time: 34931 ms
+
+Thread number 44 (male) has finished running
+Loop count: 23
+Number of waits in queue: 2
+Total queue time: 71470 ms
+Minimum queue time: 1302 ms
+Maximum queue time: 70168 ms
+Average queue time: 35735 ms
+
+Thread number 47 (male) has finished running
+Loop count: 26
+Number of waits in queue: 2
+Total queue time: 71040 ms
+Minimum queue time: 2009 ms
+Maximum queue time: 69031 ms
+Average queue time: 35520 ms
+
+Bathroom statistics:
+	Number of uses: 1349
+	Total time unoccupied: 2307 ms
+	Total time occupied: 144550 ms
+	Average queue length: 27
+	Average occupants: 20
